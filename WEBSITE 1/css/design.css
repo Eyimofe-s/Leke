@@ -1,0 +1,137 @@
+
+
+body{
+    
+    margin:0;
+    text-align: center;
+   
+}
+
+h1{
+ margin-top: 0%;
+ font-size: 80px;
+ color: #3498db; 
+ line-height: 1;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color:#3498db; 
+    font-weight: normal;
+    font-size: 45px;
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+
+p{
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: medium;
+}
+    
+
+hr{
+    border: dotted wheat 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.king{
+    float:left;
+    border-radius: 100%;
+    
+    margin-right: 30px;
+    text-align: left;
+
+}
+.circular{
+    width: 500px;
+}
+.sprint{
+    height: 30%;
+    border-radius: 100%;
+    width: 30%;
+}
+.top-container{
+    background-color:midnightblue;
+    position:relative;
+    padding-top: 50px;
+    
+}
+
+.sing{
+    float:right;
+    border-radius: 100%;
+    width:40%;
+    height:40%;
+
+}
+
+
+
+.mid-container{
+   margin: 100px;
+
+}
+
+a{
+    color:#2980b9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#122661;
+}
+
+.copyright{
+    color: whitesmoke ;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.bot-container{
+  background-color: #3498db;
+  padding: 50px 0 20px;
+  margin-top: 30px;
+}
+
+.contact-message{
+width: 40%;
+margin: 40px auto 60px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #122661);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #122661);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #122661);
+    background-image: -o-linear-gradient(top, #3cb0fd, #122661);
+    background-image: linear-gradient(to bottom, #3cb0fd, #122661);
+    text-decoration: none;
+  }

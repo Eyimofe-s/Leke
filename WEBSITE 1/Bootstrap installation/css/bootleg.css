@@ -1,0 +1,213 @@
+.title-image{
+    width:60%;
+    height:90%;
+    border-radius: 100%;
+    display:flex;
+    transform: rotate(15deg);
+    left: 10px;   
+}
+
+#title{
+    background-color: darkslategrey;
+    
+    
+}
+
+.sera{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 65px;
+    display: ruby;
+    color: whitesmoke;
+    margin-left: 20px;
+    text-align:end;
+    position:relative;  
+    font-size: 50px; 
+}
+
+.xerxes{
+    text-align: end;
+    margin-left: 10px;
+}
+h3{
+    font-weight: bold;
+}
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/*Navigation bar*/
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    font-kerning: inherit;
+    float:left;
+
+}
+
+.navbar{
+    padding: 0 0 4 4rem;
+}
+
+.nav-item{
+    padding: 0px 20px;
+    color: whitesmoke;
+    float:right;
+   
+}
+
+.nav-link{
+font-size: 1.25rem;
+
+}
+
+/*Download Buttons*/
+.download-button{
+    margin: 9px;
+   
+}
+
+/*Features*/
+
+#features{
+    padding: 9% 5%;
+}
+
+@media (max-width: 200px){
+    #title{
+        text-align: center;
+    }
+}
+    
+
+
+.rend{
+    color:burlywood;
+   margin-bottom: 28px;
+}
+.rend:hover{
+    color:darkslategray;
+}
+
+.feature-box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.yunda{
+    color:darkgrey;
+}
+
+
+/*Testimonials*/
+
+#testimonials{
+    text-align: center; 
+    background-color:darkolivegreen;
+    color:whitesmoke;
+    
+}
+
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    margin-top: 25px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.area{
+width: 10%;
+border-radius: 100%;
+margin:20px;
+}
+
+#press{
+    background-color:darkolivegreen;
+    text-align: center;
+}
+
+.press-logo{
+    width:10%;
+    margin: 40px;
+    border-radius: 100%;
+    transform: rotate(20deg);
+
+}
+
+/*Pricing*/
+.widget{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#pricing{
+  padding: 40px;
+  text-align: center;
+ }
+
+ .fee{
+     font-size: 70px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+
+    /*Sec-Last*/
+  #sec-last{
+      background-color:darkslategray;
+     
+     text-align: center;
+     padding-top: 90px;
+     padding-bottom: 90px;
+     
+  }
+
+  /*Footer*/
+  #footer{
+      text-align: center;
+      padding: 40px;
+      
+  }
+
+  .iconn{
+    padding: 15px 15px 15px 15px;
+    margin-top: 20px;
+
+  }
+
+  .sequel{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 30px;
+      font-weight: bold;
+      padding: 20px;
+      color: whitesmoke;
+  }
+
+  @media(max-width: 700px){
+    
+    .title-image{
+        transform: rotate(0);
+       
+        
+  }
+
+    #title{
+        text-align: center;
+    }
+}
